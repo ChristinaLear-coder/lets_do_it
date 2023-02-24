@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>React Weather App</p>
+        <h1> React Weather App</h1>
         <a
           className="App-link"
           href="##"
