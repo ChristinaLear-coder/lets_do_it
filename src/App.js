@@ -7,7 +7,9 @@ export default function App() {
     <div className="container">
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <center>
+            <img src={logo} className="App-logo" alt="logo" />
+          </center>
           <h1>
             <center>React Weather App</center>{" "}
           </h1>
