@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Weather from "./Weather.js";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1> React Weather App</h1>
+          <Weather />
           <a
             className="App-link"
             href="##"
