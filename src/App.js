@@ -8,15 +8,18 @@ export default function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1> React Weather App</h1>
+          <h1>
+            <center>React Weather App</center>{" "}
+          </h1>
           <Weather />
+          <br />
           <a
             className="App-link"
             href="##"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Coded by Christina Lear, open-sourced on GitHub
+            <center>Coded by Christina Lear, open-sourced on GitHub</center>
           </a>
         </header>
       </div>
