@@ -13,7 +13,7 @@ export default function App() {
           <h1>
             <center>React Weather App</center>{" "}
           </h1>
-          <Weather />
+          <Weather defaultCity="New York" />
           <br />
           <a
             className="App-link"
